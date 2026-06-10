@@ -1,42 +1,55 @@
-# Comandos de Ramas en Git
+# Comandos de Historial y Remotos
 
-## Git Branch
+## Git Commit
 
 ¿Que hace?
-Permite crear, listar y eliminar ramas.
-un ejemplo seria:git branch desarrollo
+Toma una "foto" de los cambios preparados y los guarda permanentemente en el historial local.
+un ejemplo seria:git commit -m "feat: agregar comandos"
 
 ---
 
-## Git Checkout
+## Git Log
 
 ¿Que hace?
-Permite cambiar de rama
-en ejemplo seria:git checkout desarrollo
+Muestra el historial completo de todos los commits realizados en la rama actual.
+un ejemplo seria:git log --oneline
 
 ---
 
-## Git Switch
+## Git Fetch
 
 ¿Que hace?
-Permite cambiar de rama de forma mas moderna.
-
-un ejemplo seria:git switch desarrollo
+Descarga los cambios nuevos del repositorio remoto (GitHub) sin mezclarlos con tus archivos actuales.
+un ejemplo seria:git fetch origin
 
 ---
 
-## Git Merge
+## Git Pull
 
 ¿Que hace?
-Fusiona los cambios de una rama con otra.
-
-un ejemplo seria:git merge desarrollo
+Descarga los cambios del servidor remoto y los fusiona automáticamente con tu rama local actual.
+un ejemplo seria:git pull origin main
 
 ---
 
-## Git Rebase
+## Git Push
 
 ¿Que hace?
-Reaplica commits sobre otra base para mantener un historial más limpio.
+Sube tus commits locales al repositorio remoto para que el resto del equipo pueda verlos.
+un ejemplo seria:git push origin feat/comandos-historial-remoto
 
-un ejemplo seria:git rebase main
+---
+
+## Git Revert
+
+¿Que hace?
+Crea un nuevo commit que deshace de forma segura los cambios de un commit anterior.
+un ejemplo seria:git revert 3a5f8b2
+
+---
+
+## Git Reset
+
+¿Que hace?
+Retrocede la línea de tiempo del proyecto a un punto anterior, eliminando los commits recientes del historial.
+un ejemplo seria:git reset --hard HEAD~1
