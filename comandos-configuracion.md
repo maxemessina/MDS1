@@ -49,3 +49,11 @@ Si no es ejecutada, git no registrará nada de lo que hagas en esa carpeta.
     git init
     ```
     *Se ejecuta estando posicionado dentro de la carpeta del proyecto que queremos empezar a trackear.*
+
+---
+
+## git add
+
+### Función:
+
+Este es el comando que le dice a Git que queremos incluir actualizaciones de un archivo en particular, de varios, o de todos, en el próximo guardado que hagamos.
