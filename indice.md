@@ -1,3 +1,7 @@
-Un archivo Markdown denominado indice.md que contenga una breve
-introducción al trabajo, junto con los enlaces correspondientes a los restantes
-archivos del repositorio.
+# Índice
+
+Este repositorio contiene explicaciones sobre comandos de Git vistos durante la cursada.
+
+## Contenido
+
+- [Comandos de Ramas](comandos-ramas.md)
