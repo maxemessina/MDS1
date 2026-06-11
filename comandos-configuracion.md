@@ -1,16 +1,10 @@
-En este archivo van a estar todos los comandos de configuracion vistos en la materia
+# git config
 
-# Comandos de Configuración:
-
----
-
-## git config
-
-### Función:
+## Función:
 
 Git requiere saber quién está realizando cada modificación en el código. `git config` configura el nombre y el correo electrónico, si no se configuran Git no permitirá guardar los commits. Esta información quedará vinculada de forma permanente al historial de cada cambio.
 
-### Comandos principales y ejemplos:
+## Comandos principales y ejemplos:
 
 * **Configurar el nombre de usuario global:**
     ```bash
@@ -31,43 +25,3 @@ Git requiere saber quién está realizando cada modificación en el código. `gi
     *Muestra una lista con todas las propiedades ya configuradas en el entorno.*
 
 > **Nota sobre el flag `--global`:** Al incluir este modificador, git guarda la configuración de manera global y no hace falta volver a ejecutar estos comandos cuando se crea un nuevo repositorio.
-
----
-
-## git init
-
-### Función:
-
-Este comando se utiliza para crear un repositorio nuevo de manera local, o para reinicialiar uno ya existente.
-Crea una carpeta oculta llamada `.git/` que contiene todo lo necesario para controlar versiones, historial, configuración, ramas, commits, staging area.
-Si no es ejecutada, git no registrará nada de lo que hagas en esa carpeta.
-
-### Ejemplo de uso:
-
-* **Inicializar el repositorio:**
-    ```bash
-    git init
-    ```
-    *Se ejecuta estando posicionado dentro de la carpeta del proyecto que queremos empezar a trackear.*
-
----
-
-## git add
-
-### Función:
-
-Este es el comando que le dice a Git que queremos incluir actualizaciones de un archivo en particular, de varios, o de todos, en el próximo guardado que hagamos.
-
-### Comandos principales y ejemplos:
-
-* **Agregar un archivo específico:**
-    ```bash
-    git add ejemplo.md
-    ```
-    *Mueve los cambios del archivo desde Working Directory hasta Staging Area y deja los cambios preparados para el commit.*
-
-* **Agregar todos los cambios a la vez:**
-    ```bash
-    git add .
-    ```
-    *El punto (`.`) le indica a Git que tome absolutamente todos los archivos nuevos o modificados del directorio actual y los mueva al Staging Area.*
