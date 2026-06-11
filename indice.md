@@ -1,23 +1,29 @@
-Índice - Trabajo Práctico de Git de Metodología de Sistemas I (UTN)
+# Índice - Trabajo Práctico de Git de Metodología de Sistemas I (UTN)
 
-Este repositorio contiene una guía colaborativa sobre el uso de Git, desarrollada por Máximo Messina, Máximo Moraes, y Lucas Rojas como parte del trabajo práctico para la materia Metodología de Sistemas I. 
+Este repositorio contiene una guía colaborativa sobre el uso de **Git**, desarrollada por **Máximo Messina**, **Máximo Moraes**, y **Lucas Rojas** como parte del trabajo práctico para la materia **Metodología de Sistemas I**. 
 
 Aquí documentamos nuestras explicaciones de los comandos fundamentales vistos durante la cursada, organizados de forma temática para facilitar su lectura y comprensión. 
 
-Contenido de la Guía
+---
+
+## Contenido de la Guía
 
 Podés acceder a las distintas secciones de nuestra guía haciendo clic en los siguientes enlaces:
 
-Comandos de Configuración
-git config
+### Comandos de Configuración
 
-git init
+* **[git config](./git-config.md)**
 
-Comandos Básicos
-git add
+* **[git init](./git-init.md)**
 
-git commit
+### Comandos Básicos
 
-Documentación Adicional
+* **[git add](./git-add.md)**
 
-Estadísticas del Repositorio
+* **[git commit](./git-commit.md)**
+
+---
+
+## Documentación Adicional
+
+* **[Estadísticas del Repositorio](./stats.md)**: Un análisis de nuestra actividad en el repositorio, incluyendo cantidad de commits, merges, conflictos y más.
