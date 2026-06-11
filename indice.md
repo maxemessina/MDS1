@@ -4,6 +4,26 @@ Este repositorio contiene una guía colaborativa sobre el uso de **Git**, desarr
 
 Aquí documentamos nuestras explicaciones de los comandos fundamentales vistos durante la cursada, organizados de forma temática para facilitar su lectura y comprensión. 
 
-- [Comandos de Ramas](comandos-ramas.md)
-- [Comandos Locales y Remotos](comandos-local-remoto.md)
-- [Estadisticas](stats.md)
+---
+
+## Contenido de la Guía
+
+Podés acceder a las distintas secciones de nuestra guía haciendo clic en los siguientes enlaces:
+
+### Comandos de Configuración
+
+* **[git config](./git-config.md)**
+
+* **[git init](./git-init.md)**
+
+### Comandos Básicos
+
+* **[git add](./git-add.md)**
+
+* **[git commit](./git-commit.md)**
+
+---
+
+## Documentación Adicional
+
+* **[Estadísticas del Repositorio](./stats.md)**: Un análisis de nuestra actividad en el repositorio, incluyendo cantidad de commits, merges, conflictos y más.
