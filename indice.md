@@ -6,3 +6,4 @@ Este repositorio contiene explicaciones sobre comandos de Git vistos durante la 
 
 - [Comandos de Ramas](comandos-ramas.md)
 - [Comandos Locales y Remotos](comandos-local-remoto.md)
+- [Estadisticas](stats.md)
