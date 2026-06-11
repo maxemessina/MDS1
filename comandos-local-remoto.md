@@ -4,24 +4,6 @@ Los comandos locales y remotos sirven para manejar el trabajo en Git. Los comand
 
 ## Guardado de Historial Local
 
-### git commit
-
-¿Que hace?
-Agarra los cambios preparados y los guarda en el historial local.
-
-Un ejemplo seria: `git commit -m "feat: agregar comandos"`
-
----
-
-### git commit --amend
-
-¿Que hace?
-Modifica el ultimo commit hecho.
-
-Un ejemplo seria: `git commit --amend -m "feat: agregar bien los comandos"`
-
----
-
 ### git log
 
 ¿Que hace?
