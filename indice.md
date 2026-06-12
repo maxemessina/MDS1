@@ -22,9 +22,13 @@ Podés acceder a las distintas secciones de nuestra guía haciendo clic en los s
 
 * **[git commit](./git-commit.md)**
 
-### Comandos Relacionado a Ramas
+### Comandos Remotos
 
-* **[Comandos de Ramas](comandos-ramas.md)**
+* **[git fetch, git pull, git push](./comandos-remotos.md)**
+
+### Comandos de Historial y Deshacer
+
+* **[git log, git revert, git reset](./comandos-deshacer-historial.md)**
 
 ---
 
